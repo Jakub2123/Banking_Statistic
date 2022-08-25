@@ -17,7 +17,7 @@ with urlopen(ZipUrl) as zip:
         zfile.extractall()
     
     
-print( "dwonloading complete")
+print( "Downloading complete")
 
 filename = r'Poland.xlsx'
 previousSheet='Previous'
